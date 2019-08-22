@@ -14,9 +14,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "@storybook/react": "^3.2.16",
-    "@storybook/addon-actions": "^3.2.16"
-
+    "preinstall": "rm -rf node_modules"
 
   },
   "devDependencies": {
